@@ -11,7 +11,7 @@
 	<context:annotation-config />
 	<tx:annotation-driven />
 
-	<jpa:repositories base-package="in.cdacnoida.contacts.repositories" />
+	<jpa:repositories base-package="in.cdacnoida.contacts.repository" />
 
 	<bean id="dataSource" class="com.jolbox.bonecp.BoneCPDataSource"
 		destroy-method="close">
