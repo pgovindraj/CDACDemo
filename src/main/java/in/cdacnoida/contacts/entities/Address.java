@@ -50,7 +50,4 @@ public class Address {
 		this.zip = zip;
 	}
 
-	
-	
-
 }
